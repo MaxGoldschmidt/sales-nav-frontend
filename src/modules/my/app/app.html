@@ -1,0 +1,19 @@
+<template>
+    <h1>Opportunities</h1>
+
+    <!--Iterate over opportunities and render cards-->
+    <template if:true={opportunities}>
+        <template for:each={opportunities} for:item="opportunity">
+            <my-opportunity
+                key={opportunity.representative.email}
+                representative={opportunity.representative}
+                company={opportunity.company}
+            ></my-opportunity>
+        </template>
+    </template>
+
+    <!--Output error if an error is found-->
+    <template if:true={error}>
+        <p class="error">{error}</p>
+    </template>
+</template>

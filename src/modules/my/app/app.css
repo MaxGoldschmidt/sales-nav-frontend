@@ -1,0 +1,7 @@
+:host {
+    padding: 1.5rem;
+}
+
+.error {
+    color: #c23934;
+}

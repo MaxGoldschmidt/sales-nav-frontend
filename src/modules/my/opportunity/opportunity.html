@@ -1,0 +1,14 @@
+<template>
+    <template if:true={showOpportunity}>
+        <div class="card">
+            <h3>{representative.name} | {company.name}</h3>
+            <span>
+                The representative <strong>{representative.name}&MediumSpace;</strong>
+                {representative.email}, {representative.phone} has to visit&MediumSpace;
+                <strong>{company.name}</strong> at {company.address} and talk to
+                {company.contact.name}, {company.contact.email},
+                {company.contact.phone}
+            </span>
+        </div>
+    </template>
+</template>
