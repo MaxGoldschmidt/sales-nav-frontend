@@ -16,7 +16,7 @@ export default class App extends LightningElement {
             console.log(JSON.stringify(parsedOpportunities));
             this.opportunities = parsedOpportunities;
         } catch (error) {
-          this.error = error;
+            this.error = error;
         }
     }
 }
