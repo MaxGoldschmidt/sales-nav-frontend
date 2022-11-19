@@ -5,7 +5,7 @@
     "author": "Max Goldschmidt",
     "bugs": "https://github.com/Max Goldschmidt/sales-nav-frontend/issues",
     "dependencies": {
-        "lwc-services": "^1.3.12"
+        "lwc-services": "^3.2.2"
     },
     "devDependencies": {
         "husky": "^3.1.0",
